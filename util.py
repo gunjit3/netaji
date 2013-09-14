@@ -38,8 +38,8 @@ def read_subj_obj_data():
     "Corresponding class. Prepares a feature vector as used by classfier and returns it"
     "this needsmore work"
     
-    subj_file = "/home/gunjit/workspace/Twitter/quote.tok.gt9.5000"
-    obj_file = "/home/gunjit/workspace/Twitter/plot.tok.gt9.5000"
+    subj_file = "/home/gunjit/workspace/Twitter/dataset/quote.tok.gt9.5000"
+    obj_file = "/home/gunjit/workspace/Twitter/dataset/plot.tok.gt9.5000"
     subj_data = read_file(subj_file)
     obj_data = read_file(obj_file)
     subj_tokens = filter_stop_words(tokenize(subj_data[:100]))
